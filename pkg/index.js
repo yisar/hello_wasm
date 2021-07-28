@@ -1,4 +1,3 @@
-import('./hello_wasm').then(async m => {
-    await m.default()
-    m.greet('hello')
-})
+const {say} = require('./hello_wasm')
+
+console.log(say('132'))
