@@ -1,7 +1,7 @@
 /* tslint:disable */
 /* eslint-disable */
 /**
-* @param {string} s
+* @param {string} name
 * @returns {string}
 */
-export function say(s: string): string;
+export function greet(name: string): string;

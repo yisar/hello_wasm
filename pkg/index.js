@@ -1,3 +1,3 @@
-const {say} = require('./hello_wasm')
+const {greet} = require('./hello_wasm')
 
-console.log(say('132'))
+console.log(greet('132'))
