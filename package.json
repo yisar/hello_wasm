@@ -1,0 +1,21 @@
+{
+  "name": "hello_wasm",
+  "version": "1.0.0",
+  "description": "hello wasm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"node ./js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisar/hello_wasm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yisar/hello_wasm/issues"
+  },
+  "homepage": "https://github.com/yisar/hello_wasm#readme"
+}
